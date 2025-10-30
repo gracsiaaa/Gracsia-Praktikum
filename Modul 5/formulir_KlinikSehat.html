@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Belajar Membuat Form</title>
+</head>
+
+<body>
+  <form action="formulir.html" method="get">
+    Nama: <input type="text" name="nama"><br>
+    Umur: <input type="text" name="umur"><br>
+    Jenis Kelamin:
+      <input type="radio" name="jenis_kelamin" value="Laki-laki" checked>Laki-laki
+      <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan<br>
+    Keluhan Penyakit:
+      <textarea name="komentar" rows="5" cols="30">Tulis keluhan Anda di sini...</textarea><br>
+    Memiliki Riwayat Penyakit:
+      <select name="riwayat_penyakit">
+      <option value="Tidak">Tidak</option>
+      <option value="Ya">Ya</option>
+    </select><br>
+    <input type="submit" value="Kirim">
+  </form>
+
+</body>
+
+</html>
